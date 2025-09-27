@@ -10,12 +10,8 @@ app.get('/', (_req, res) => {
 
 app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
-<<<<<<< HEAD
-});
-=======
 });
 
 export default app;
 
 // les problèmes,les problèmes,les problèmes,les problèmes
->>>>>>> 19f0e08bca631d3f784b40f3ca6beffa4267e0a1
