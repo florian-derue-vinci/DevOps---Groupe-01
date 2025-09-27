@@ -14,8 +14,4 @@ app.listen(port, () => {
 
 export default app;
 
-<<<<<<< HEAD
 // les problèmes,les problèmes,les problèmes,les problèmes
-=======
-//sabotage ahahahah
->>>>>>> 768c1d83fc0430d67c04cf3e3becfbe3c25ba3c8
