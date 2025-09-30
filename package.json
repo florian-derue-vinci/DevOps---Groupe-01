@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    
     "start": "node dist/index.js",
     "build": "tsc",
     "dev": "ts-node-dev --respawn src src/index.ts",
@@ -32,5 +33,4 @@
     "moduleResolution": "node",
     "verbatimModuleSyntax": true
   }
-
 }
