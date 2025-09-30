@@ -1,12 +1,10 @@
-import type { Config } from "jest";
-
-const config: Config = {
-  preset: "ts-jest",
-  testEnvironment: "node",
-  testMatch: ["**/__tests__/**/*.ts", "**/?(*.)+(spec|test).ts"],
-  coverageDirectory: "coverage",
-  coverageReporters: ["text", "lcov", "html"],
-  collectCoverageFrom: ["src/**/*.ts"],
+module.exports = {
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  testMatch: ['**/__tests__/**/*.ts', '**/?(*.)+(spec|test).ts'],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['text', 'lcov', 'html'],
+  collectCoverageFrom: ['src/**/*.ts'],
   coverageThreshold: {
     global: {
       branches: 70,
@@ -16,5 +14,3 @@ const config: Config = {
     },
   },
 };
-
-export default config;
